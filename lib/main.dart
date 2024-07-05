@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RequestRentPage(), //Design 01
+      // home: const RequestRentPage(), //Design 01
       // home: const RatingUserPage(), //Design 02
-      // home:const ReferralsPage(), //Design 03
+      home:const ReferralsPage(), //Design 03
     );
   }
 }
